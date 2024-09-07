@@ -1,0 +1,367 @@
+{
+    "contests": [
+        {
+            "name": "PRESIDENT - Democratic",
+            "choices": [
+                {
+                    "name": "Eban Cambridge",
+                    "party": "DEM",
+                    "vote_in_center": 9,
+                    "vote_by_mail": 109,
+                    "vote_total": 118
+                },
+                {
+                    "name": "Gabriel Cornejo",
+                    "party": "DEM",
+                    "vote_in_center": 15,
+                    "vote_by_mail": 104,
+                    "vote_total": 119
+                },
+                {
+                    "name": "President R Boddie",
+                    "party": "DEM",
+                    "vote_in_center": 18,
+                    "vote_by_mail": 142,
+                    "vote_total": 160
+                },
+                {
+                    "name": "Joseph R Biden Jr",
+                    "party": "DEM",
+                    "vote_in_center": 1185,
+                    "vote_by_mail": 16063,
+                    "vote_total": 17248
+                },
+                {
+                    "name": "Marianne Williamson",
+                    "party": "DEM",
+                    "vote_in_center": 156,
+                    "vote_by_mail": 1016,
+                    "vote_total": 1172
+                },
+                {
+                    "name": "Dean Phillips",
+                    "party": "DEM",
+                    "vote_in_center": 60,
+                    "vote_by_mail": 519,
+                    "vote_total": 579
+                },
+                {
+                    "name": "Armando \"Mando\" Perez-Serrato",
+                    "party": "DEM",
+                    "vote_in_center": 34,
+                    "vote_by_mail": 111,
+                    "vote_total": 145
+                },
+                {
+                    "name": "Stephen P Lyons",
+                    "party": "DEM",
+                    "vote_in_center": 9,
+                    "vote_by_mail": 85,
+                    "vote_total": 94
+                },
+                {
+                    "name": "James Mark Merts",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "President Cristina Nicole Grappo",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "Reed Michaelsen",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "Richard Gutierrez",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "Wayne Anthony Pope Sr.",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "Willie Felix Carter",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                }
+            ]
+        },
+        {
+            "name": "PRESIDENT - Republican",
+            "choices": [
+                {
+                    "name": "Asa Hutchinson",
+                    "party": "REP",
+                    "vote_in_center": 2,
+                    "vote_by_mail": 32,
+                    "vote_total": 34
+                },
+                {
+                    "name": "Donald J. Trump",
+                    "party": "REP",
+                    "vote_in_center": 1411,
+                    "vote_by_mail": 7243,
+                    "vote_total": 8654
+                },
+                {
+                    "name": "Chris Christie",
+                    "party": "REP",
+                    "vote_in_center": 3,
+                    "vote_by_mail": 74,
+                    "vote_total": 77
+                },
+                {
+                    "name": "Ryan L Binkley",
+                    "party": "REP",
+                    "vote_in_center": 1,
+                    "vote_by_mail": 14,
+                    "vote_total": 15
+                },
+                {
+                    "name": "David Stuckenberg",
+                    "party": "REP",
+                    "vote_in_center": 2,
+                    "vote_by_mail": 13,
+                    "vote_total": 15
+                },
+                {
+                    "name": "Rachel Swift",
+                    "party": "REP",
+                    "vote_in_center": 3,
+                    "vote_by_mail": 19,
+                    "vote_total": 22
+                },
+                {
+                    "name": "Ron DeSantis",
+                    "party": "REP",
+                    "vote_in_center": 17,
+                    "vote_by_mail": 172,
+                    "vote_total": 189
+                },
+                {
+                    "name": "Vivek Ramaswamy",
+                    "party": "REP",
+                    "vote_in_center": 9,
+                    "vote_by_mail": 42,
+                    "vote_total": 51
+                },
+                {
+                    "name": "Nikki Haley",
+                    "party": "REP",
+                    "vote_in_center": 140,
+                    "vote_by_mail": 1623,
+                    "vote_total": 1763
+                },
+                {
+                    "name": "Douglas Groves",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "Hugo C Aguilar",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "Ryan Stephen Ehrenreich",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                }
+            ]
+        },
+        {
+            "name": "PRESIDENT - American Independent",
+            "choices": [
+                {
+                    "name": "James Bradley",
+                    "party": "AIP",
+                    "vote_in_center": 28,
+                    "vote_by_mail": 219,
+                    "vote_total": 247
+                },
+                {
+                    "name": "Andrew George Rummel",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                }
+            ]
+        },
+        {
+            "name": "PRESIDENT - Green",
+            "choices": [
+                {
+                    "name": "Jill Stein",
+                    "party": "GRN",
+                    "vote_in_center": 47,
+                    "vote_by_mail": 336,
+                    "vote_total": 383
+                },
+                {
+                    "name": "Daví",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "Jorge Zavala",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                },
+                {
+                    "name": "Matthew Pruden",
+                    "party": null,
+                    "vote_in_center": 0,
+                    "vote_by_mail": 0,
+                    "vote_total": 0
+                }
+            ]
+        },
+        {
+            "name": "PRESIDENT - Libertarian",
+            "choices": [
+                {
+                    "name": "Charles Ballay",
+                    "party": "LIB",
+                    "vote_in_center": 24,
+                    "vote_by_mail": 162,
+                    "vote_total": 186
+                },
+                {
+                    "name": "Chase Oliver",
+                    "party": null,
+                    "vote_in_center": 2,
+                    "vote_by_mail": 5,
+                    "vote_total": 7
+                }
+            ]
+        },
+        {
+            "name": "PRESIDENT - Peace and Freedom",
+            "choices": [
+                {
+                    "name": "Jasmine Sherman",
+                    "party": "PF",
+                    "vote_in_center": 3,
+                    "vote_by_mail": 12,
+                    "vote_total": 15
+                },
+                {
+                    "name": "Claudia De la Cruz",
+                    "party": "PF",
+                    "vote_in_center": 8,
+                    "vote_by_mail": 40,
+                    "vote_total": 48
+                },
+                {
+                    "name": "Cornel West",
+                    "party": "PF",
+                    "vote_in_center": 19,
+                    "vote_by_mail": 57,
+                    "vote_total": 76
+                }
+            ]
+        }
+    ],
+    "summary": [
+        {
+            "contest": "PRESIDENT - Democratic",
+            "undervotes_in_center": 78,
+            "undervotes_by_mail": 1022,
+            "overvotes_in_center": 0,
+            "overvotes_by_mail": 1,
+            "undervotes_total": 1100,
+            "overvotes_total": 1,
+            "unqualified_write_ins_in_center": 151,
+            "unqualified_write_ins_by_mail": 1122,
+            "unqualified_write_ins_total": 1273
+        },
+        {
+            "contest": "PRESIDENT - Republican",
+            "undervotes_in_center": 6,
+            "undervotes_by_mail": 165,
+            "overvotes_in_center": 1,
+            "overvotes_by_mail": 0,
+            "undervotes_total": 171,
+            "overvotes_total": 1,
+            "unqualified_write_ins_in_center": 10,
+            "unqualified_write_ins_by_mail": 109,
+            "unqualified_write_ins_total": 119
+        },
+        {
+            "contest": "PRESIDENT - American Independent",
+            "undervotes_in_center": 42,
+            "undervotes_by_mail": 335,
+            "overvotes_in_center": 0,
+            "overvotes_by_mail": 0,
+            "undervotes_total": 377,
+            "overvotes_total": 0,
+            "unqualified_write_ins_in_center": 77,
+            "unqualified_write_ins_by_mail": 564,
+            "unqualified_write_ins_total": 641
+        },
+        {
+            "contest": "PRESIDENT - Green",
+            "undervotes_in_center": 7,
+            "undervotes_by_mail": 58,
+            "overvotes_in_center": 0,
+            "overvotes_by_mail": 0,
+            "undervotes_total": 65,
+            "overvotes_total": 0,
+            "unqualified_write_ins_in_center": 8,
+            "unqualified_write_ins_by_mail": 104,
+            "unqualified_write_ins_total": 112
+        },
+        {
+            "contest": "PRESIDENT - Libertarian",
+            "undervotes_in_center": 6,
+            "undervotes_by_mail": 56,
+            "overvotes_in_center": 0,
+            "overvotes_by_mail": 0,
+            "undervotes_total": 62,
+            "overvotes_total": 0,
+            "unqualified_write_ins_in_center": 26,
+            "unqualified_write_ins_by_mail": 98,
+            "unqualified_write_ins_total": 124
+        },
+        {
+            "contest": "PRESIDENT - Peace and Freedom",
+            "undervotes_in_center": 3,
+            "undervotes_by_mail": 17,
+            "overvotes_in_center": 0,
+            "overvotes_by_mail": 0,
+            "undervotes_total": 20,
+            "overvotes_total": 0,
+            "unqualified_write_ins_in_center": 2,
+            "unqualified_write_ins_by_mail": 23,
+            "unqualified_write_ins_total": 25
+        }
+    ]
+}
