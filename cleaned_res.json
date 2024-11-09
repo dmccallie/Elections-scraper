@@ -101,18 +101,7 @@
           "vote_by_mail": 0,
           "vote_total": 0
         }
-      ],
-      "summary": {
-        "undervotes_in_center": 78,
-        "undervotes_by_mail": 1022,
-        "undervotes_total": 1100,
-        "overvotes_in_center": 0,
-        "overvotes_by_mail": 1,
-        "overvotes_total": 1,
-        "unqualified_write_ins_in_center": 151,
-        "unqualified_write_ins_by_mail": 1122,
-        "unqualified_write_ins_total": 1273
-      }
+      ]
     },
     {
       "name": "PRESIDENT - Republican",
@@ -201,18 +190,7 @@
           "vote_by_mail": 0,
           "vote_total": 0
         }
-      ],
-      "summary": {
-        "undervotes_in_center": 6,
-        "undervotes_by_mail": 165,
-        "undervotes_total": 171,
-        "overvotes_in_center": 1,
-        "overvotes_by_mail": 0,
-        "overvotes_total": 1,
-        "unqualified_write_ins_in_center": 10,
-        "unqualified_write_ins_by_mail": 109,
-        "unqualified_write_ins_total": 119
-      }
+      ]
     },
     {
       "name": "PRESIDENT - American Independent",
@@ -231,18 +209,7 @@
           "vote_by_mail": 0,
           "vote_total": 0
         }
-      ],
-      "summary": {
-        "undervotes_in_center": 42,
-        "undervotes_by_mail": 335,
-        "undervotes_total": 377,
-        "overvotes_in_center": 0,
-        "overvotes_by_mail": 0,
-        "overvotes_total": 0,
-        "unqualified_write_ins_in_center": 77,
-        "unqualified_write_ins_by_mail": 564,
-        "unqualified_write_ins_total": 641
-      }
+      ]
     },
     {
       "name": "PRESIDENT - Green",
@@ -275,18 +242,7 @@
           "vote_by_mail": 0,
           "vote_total": 0
         }
-      ],
-      "summary": {
-        "undervotes_in_center": 7,
-        "undervotes_by_mail": 58,
-        "undervotes_total": 65,
-        "overvotes_in_center": 0,
-        "overvotes_by_mail": 0,
-        "overvotes_total": 0,
-        "unqualified_write_ins_in_center": 8,
-        "unqualified_write_ins_by_mail": 104,
-        "unqualified_write_ins_total": 112
-      }
+      ]
     },
     {
       "name": "PRESIDENT - Libertarian",
@@ -305,18 +261,7 @@
           "vote_by_mail": 5,
           "vote_total": 7
         }
-      ],
-      "summary": {
-        "undervotes_in_center": 6,
-        "undervotes_by_mail": 56,
-        "undervotes_total": 62,
-        "overvotes_in_center": 0,
-        "overvotes_by_mail": 0,
-        "overvotes_total": 0,
-        "unqualified_write_ins_in_center": 26,
-        "unqualified_write_ins_by_mail": 98,
-        "unqualified_write_ins_total": 124
-      }
+      ]
     },
     {
       "name": "PRESIDENT - Peace and Freedom",
@@ -342,18 +287,81 @@
           "vote_by_mail": 57,
           "vote_total": 76
         }
-      ],
-      "summary": {
-        "undervotes_in_center": 3,
-        "undervotes_by_mail": 17,
-        "undervotes_total": 20,
-        "overvotes_in_center": 0,
-        "overvotes_by_mail": 0,
-        "overvotes_total": 0,
-        "unqualified_write_ins_in_center": 2,
-        "unqualified_write_ins_by_mail": 23,
-        "unqualified_write_ins_total": 25
-      }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "name": "PRESIDENT - Democratic",
+      "undervotes_in_center": 78,
+      "undervotes_by_mail": 1022,
+      "undervotes_total": 1100,
+      "overvotes_in_center": 0,
+      "overvotes_by_mail": 1,
+      "overvotes_total": 1,
+      "unqualified_write_ins_in_center": 151,
+      "unqualified_write_ins_by_mail": 1122,
+      "unqualified_write_ins_total": 1273
+    },
+    {
+      "name": "PRESIDENT - Republican",
+      "undervotes_in_center": 6,
+      "undervotes_by_mail": 165,
+      "undervotes_total": 171,
+      "overvotes_in_center": 1,
+      "overvotes_by_mail": 0,
+      "overvotes_total": 1,
+      "unqualified_write_ins_in_center": 10,
+      "unqualified_write_ins_by_mail": 109,
+      "unqualified_write_ins_total": 119
+    },
+    {
+      "name": "PRESIDENT - American Independent",
+      "undervotes_in_center": 42,
+      "undervotes_by_mail": 335,
+      "undervotes_total": 377,
+      "overvotes_in_center": 0,
+      "overvotes_by_mail": 0,
+      "overvotes_total": 0,
+      "unqualified_write_ins_in_center": 77,
+      "unqualified_write_ins_by_mail": 564,
+      "unqualified_write_ins_total": 641
+    },
+    {
+      "name": "PRESIDENT - Green",
+      "undervotes_in_center": 7,
+      "undervotes_by_mail": 58,
+      "undervotes_total": 65,
+      "overvotes_in_center": 0,
+      "overvotes_by_mail": 0,
+      "overvotes_total": 0,
+      "unqualified_write_ins_in_center": 8,
+      "unqualified_write_ins_by_mail": 104,
+      "unqualified_write_ins_total": 112
+    },
+    {
+      "name": "PRESIDENT - Libertarian",
+      "undervotes_in_center": 6,
+      "undervotes_by_mail": 56,
+      "undervotes_total": 62,
+      "overvotes_in_center": 0,
+      "overvotes_by_mail": 0,
+      "overvotes_total": 0,
+      "unqualified_write_ins_in_center": 26,
+      "unqualified_write_ins_by_mail": 98,
+      "unqualified_write_ins_total": 124
+    },
+    {
+      "name": "PRESIDENT - Peace and Freedom",
+      "undervotes_in_center": 3,
+      "undervotes_by_mail": 17,
+      "undervotes_total": 20,
+      "overvotes_in_center": 0,
+      "overvotes_by_mail": 0,
+      "overvotes_total": 0,
+      "unqualified_write_ins_in_center": 2,
+      "unqualified_write_ins_by_mail": 23,
+      "unqualified_write_ins_total": 25
     }
   ]
 }

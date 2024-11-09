@@ -111,9 +111,9 @@ def merge_summary(master_summaries: List[Summary], new_summaries: List[Summary])
             master_summary.overvotes_in_center += new_summary.overvotes_in_center
             master_summary.overvotes_by_mail += new_summary.overvotes_by_mail
             master_summary.overvotes_total += new_summary.overvotes_total
-            master_summary.unqualified_write_ins_in_center += new_summary.unqualified_write_ins_in_center
-            master_summary.unqualified_write_ins_by_mail += new_summary.unqualified_write_ins_by_mail
-            master_summary.unqualified_write_ins_total += new_summary.unqualified_write_ins_total
+            master_summary.unresolved_write_ins_in_center += new_summary.unresolved_write_ins_in_center
+            master_summary.unresolved_write_ins_by_mail += new_summary.unresolved_write_ins_by_mail
+            master_summary.unresolved_write_ins_total += new_summary.unresolved_write_ins_total
         else:
             # New summary, add it to the master list
             # print(f"Merging in new summary: {new_summary.contest}")
@@ -174,6 +174,7 @@ def get_next_batch(pdf_path: Path, pages_per_batch: int):
         for i in range(0, len(pdf.pages), pages_per_batch):
             text = ""
             for page in pdf.pages[i:i + pages_per_batch]:
+                print(f"Processing page {page.page_number}")
                 text += page.extract_text()
             yield text
 
@@ -183,7 +184,7 @@ def main(pdf_path: Path, api_key: str):
     # batch process the PDF and merge the new batch into master results
     # assumes that contests are always presented in a labelled table, even if the Choices are split across pages!!
 
-    pages_per_batch = 4
+    pages_per_batch = 8
     master_election_data: ElectionData = ElectionData(contests=[], summary=[])
     master_summaries = []
 
@@ -192,6 +193,7 @@ def main(pdf_path: Path, api_key: str):
         words = len(next_batch.split())
         print(f"\nStart processing batch number: {batch_num} with length {words} words") # with text = {next_batch}")
         batch_election_data = extract_election_data(batch_num, next_batch, api_key)
+        print("batch election data:", batch_election_data)
         if batch_election_data is not None:
             _ = merge_contests(master_election_data.contests, batch_election_data.contests)
             _ = merge_summary(master_election_data.summary, batch_election_data.summary)
@@ -211,7 +213,7 @@ if __name__ == "__main__":
     from dotenv import load_dotenv
     load_dotenv() # make sure our environment variables are loaded
 
-    pdf_path = Path("./large-pagesplit-election-spring2020.pdf")
+    pdf_path = Path("./Fall-2024-first-post-report.pdf")
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise ValueError("API key not found")

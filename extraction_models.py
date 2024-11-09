@@ -8,10 +8,10 @@ class Choice(BaseModel):
     "Describes a choice in a contest"
     name: str
     party: Optional[str] = None
-    writein: bool = Field(description="True only if this choice is a write-in as indicated by a '(w)' after the name")
-    vote_in_center: int = Field(..., description="The number of votes for this choice in the voting center.")
-    vote_by_mail: int = Field(..., description="The number of votes for this choice that were vote by mail")
-    vote_total: int = Field(..., description="The total number of votes for this choice")
+    writein: bool = Field(description="True only if this choice is a write-in as indicated by a '(W)' after the name")
+    vote_in_center: int = Field(..., description="Field title: Vote Center. The number of votes for this choice in the voting center.")
+    vote_by_mail: int = Field(..., description="Field title: Vote-by-Mail. The number of votes for this choice that were vote by mail")
+    vote_total: int = Field(..., description="Field title: Total. The total number of votes for this choice")
 
 
 class Contest(BaseModel):
@@ -34,6 +34,9 @@ class Summary(BaseModel):
     overvotes_by_mail: int
     undervotes_total: int
     overvotes_total: int
+    unresolved_write_ins_in_center: int
+    unresolved_write_ins_by_mail: int
+    unresolved_write_ins_total: int
     unqualified_write_ins_in_center: int
     unqualified_write_ins_by_mail: int
     unqualified_write_ins_total: int
